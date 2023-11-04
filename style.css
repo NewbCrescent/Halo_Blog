@@ -1,0 +1,81 @@
+/**************************/
+/***** INDEX ME HTML ******/
+/**************************/
+:root {
+    --brown: #412411;
+    /* This is an example */
+    /* Create your own color variables */
+    /* At most I recommend using 3 colors 
+      that will be used accross your website */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /* Choose your font family here
+        or you can add it later */
+}
+
+body {
+    background-color: #c5638a;
+    /* the bg color would be the same as your 
+        quote section bg color */
+}
+
+
+
+/***  LANDING PAGE ***/
+header img {
+    width: 50px;
+}
+
+p {
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: rgba(255,255,255, 0.4);
+}
+
+body {
+    background-image: url("Img/HaloBackground.png");
+    background-size: cover;
+}
+
+/***  NAVIGATION BAR ***/
+
+
+
+/***  TITLE ***/
+
+
+
+/***  QUOTE SECTION ***/
+
+
+
+/***  CARDS ***/
+.column img {
+    height: 100px
+}
+
+
+/***  LAST SECTION ***/
+
+
+
+/***  FOOTER ***/
+
+
+
+
+
+
+
+/**************************/
+/***** ABOUT ME HTML ******/
+/**************************/
+/* Use CSS from previous CSS to 
+      add and edit here */
