@@ -2,7 +2,9 @@
 /***** INDEX ME HTML ******/
 /**************************/
 :root {
-    --brown: #412411;
+    --green: #18882A;
+    --purple: #602259;
+    --blue: #161691;
     /* This is an example */
     /* Create your own color variables */
     /* At most I recommend using 3 colors 
@@ -13,13 +15,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
     /* Choose your font family here
         or you can add it later */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #c5638a;
+    background-color: var(--green);
     /* the bg color would be the same as your 
         quote section bg color */
 }
@@ -27,6 +30,20 @@ body {
 
 
 /***  LANDING PAGE ***/
+.landingPage {
+    width: 100vw;
+    min-width: 500px;
+    height: 70vh;
+
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/02/halo-3-cover-infinite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    position: absolute;
+    z-index: -1;
+}
+
 header img {
     width: 50px;
 }
@@ -45,29 +62,87 @@ body {
 }
 
 /***  NAVIGATION BAR ***/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    padding: 35px 5%;
+}
 
+.navLinks {
+    list-style-type: none;
+    display: flex;
+}
 
+.navLinks li{
+    padding: 0 15px;
+}
+
+.navLinks a {
+    color: var(--green);
+    font-size: 1.75em;
+    text-decoration: none;
+}
 
 /***  TITLE ***/
-
-
+header h1 {
+    color: var(--purple);
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 150px;
+}
 
 /***  QUOTE SECTION ***/
+.quoteSection {
+    background-color: var(blue); /* idk why this doesn't show blue */
+    margin-top: 170px;
+    padding: 35px 20px;
+    text-align: center;
+}
 
-
+q {
+    color: azure;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 /***  CARDS ***/
 .column img {
-    height: 100px
+    height: 100px;
+    width: 230px;
+}
+
+.row {
+    background-color: var(--purple);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    background-color: var(--blue);
+    width: 290px;
+    margin: 50px 0px;
+}
+
+.content_wrap {
+    color: black;
+    margin: 20px;
+}
+
+h2, p {
+    padding-top: 15px;
+}
+
+/***  LAST SECTION ***/
+.last_content {
+    margin: 40px 8% 60px;
 }
 
 
-/***  LAST SECTION ***/
-
-
-
 /***  FOOTER ***/
+footer {
 
+}
 
 
 
