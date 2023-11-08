@@ -1,0 +1,48 @@
+:root {
+    --green: #18882A;
+    --purple: #602259;
+    --blue: rgba(0,0,255, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--purple);
+}
+
+.homePage {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUOv6D0ymuLSpPxWlWP438gtuM_p59I22Kdg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    padding: 35px 5%;
+}
+
+.navLinks {
+    list-style-type: none;
+    display: flex;
+}
+
+.navLinks li{
+    padding: 0 15px;
+}
+
+.navLinks a {
+    color: var(--green);
+    font-size: 1.75em;
+    text-decoration: none;
+}

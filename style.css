@@ -4,7 +4,7 @@
 :root {
     --green: #18882A;
     --purple: #602259;
-    --blue: #161691;
+    --blue: rgba(0,0,255, 0.6);
     /* This is an example */
     /* Create your own color variables */
     /* At most I recommend using 3 colors 
@@ -35,7 +35,7 @@ body {
     min-width: 500px;
     height: 70vh;
 
-    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/02/halo-3-cover-infinite.jpg");
+    background-image: url("Img/halo-3-cover.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -46,6 +46,11 @@ body {
 
 header img {
     width: 50px;
+}
+
+.logo {
+    float: left;
+    margin: 2rem 2.5rem;
 }
 
 p {
@@ -94,8 +99,8 @@ header h1 {
 
 /***  QUOTE SECTION ***/
 .quoteSection {
-    background-color: var(blue); /* idk why this doesn't show blue */
-    margin-top: 170px;
+    background-image: linear-gradient(rgb(28, 6, 67),  rgb(27, 114, 158),rgb(27, 114, 158), rgb(28, 6, 67));
+    margin-top: 10vh;
     padding: 35px 20px;
     text-align: center;
 }
