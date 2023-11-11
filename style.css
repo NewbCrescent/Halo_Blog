@@ -84,7 +84,8 @@ nav {
 }
 
 .navLinks a {
-    color: var(--green);
+    color: black;
+    font-weight: 700;
     font-size: 1.75em;
     text-decoration: none;
 }
@@ -145,11 +146,20 @@ h2, p {
 
 
 /***  FOOTER ***/
-footer {
-
+footer div{
+    background-color: black;
+    padding: 5vh 0;
 }
 
+footer > div > p {
+    font-size: small;
 
+    background-color: black;
+    color: white;
+
+    margin: none;
+    padding: none;
+}
 
 
 

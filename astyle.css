@@ -2,6 +2,7 @@
     --green: #18882A;
     --purple: #602259;
     --blue: rgba(0,0,255, 0.6);
+    --section: #DEA4A5;
 }
 
 * {
@@ -19,10 +20,24 @@ body {
 .homePage {
     width: 100vw;
     height: 70vh;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUOv6D0ymuLSpPxWlWP438gtuM_p59I22Kdg&usqp=CAU");
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
+                        url("/Halo_Blog/Img/519aa818-48eb-4d2a-9657-ea85e259dace.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    position: relative;
+}
+
+h1 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav {
@@ -42,7 +57,48 @@ nav {
 }
 
 .navLinks a {
-    color: var(--green);
+    color: black;
+    font-weight: 700;
     font-size: 1.75em;
     text-decoration: none;
+}
+
+.first-section {
+    background-color: var(--section);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+}
+
+.imgAbout {
+    width: 30em;
+}
+
+.transparentImg {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+}
+
+.aboutMeP {
+    margin-top: 2em;
+    width: 30em;
+}
+
+
+
+
+
+
+.lastDiv {
+    background-color: black;
+    padding: 5vh 0;
+}
+
+.lastDiv p {
+    font-size: small;
+    color: white;
 }
