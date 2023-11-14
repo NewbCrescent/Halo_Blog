@@ -1,6 +1,6 @@
 :root {
     --green: #18882A;
-    --purple: #602259;
+    --purple: #812877;
     --blue: rgba(0,0,255, 0.6);
     --section: #DEA4A5;
 }
@@ -38,6 +38,14 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    animation: ChangingColor 1s ease-in-out forwards;
+}
+
+@keyframes ChangingColor {
+    100% {
+        color: var(--purple);
+    }
 }
 
 nav {
@@ -101,4 +109,30 @@ nav {
 .lastDiv p {
     font-size: small;
     color: white;
+}
+
+.lastDiv:hover{
+    animation: FooterDiv 1s ease-in-out forwards;
+}
+
+.lastDiv:hover p {
+    animation: FooterP 1s ease-in-out forwards;
+}
+
+@keyframes FooterDiv {
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes FooterP {
+    50% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
 }

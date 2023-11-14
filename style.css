@@ -115,6 +115,8 @@ q {
 .column img {
     height: 100px;
     width: 230px;
+
+    object-fit: contain;
 }
 
 .row {
