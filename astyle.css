@@ -1,3 +1,9 @@
+@media  screen and (max-width: 60em) {
+    .imgAbout {
+        margin-top: 2rem;
+    }
+}
+
 :root {
     --green: #18882A;
     --purple: #812877;
@@ -77,6 +83,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap-reverse;
 
     padding-top: 20vh;
     padding-bottom: 15vh;

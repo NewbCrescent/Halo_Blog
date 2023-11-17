@@ -44,6 +44,17 @@ body {
     z-index: -1;
 }
 
+header{
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 header img {
     width: 50px;
 }
@@ -94,14 +105,14 @@ nav {
 header h1 {
     color: var(--purple);
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 150px;
 }
 
 /***  QUOTE SECTION ***/
 .quoteSection {
     background-image: linear-gradient(rgb(28, 6, 67),  rgb(27, 114, 158),rgb(27, 114, 158), rgb(28, 6, 67));
-    margin-top: 10vh;
+    margin-top: 45vh;
     padding: 35px 20px;
     text-align: center;
 }
@@ -146,6 +157,13 @@ h2, p {
     margin: 40px 8% 60px;
 }
 
+.last_content h2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255, 0.4);
+    width: fit-content;
+    padding: 0 0.5rem;
+}
 
 /***  FOOTER ***/
 footer div{
